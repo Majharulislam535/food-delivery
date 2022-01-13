@@ -4,12 +4,13 @@ import Header from '../Header/Header';
 import Service from '../Service/Service';
 import Delivery from './Delivery/Delivery';
 import OtherSection from './OtherSection/OtherSection';
+import ServiceHome from './ServiceHome/ServiceHome';
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
-            <Service></Service>
+            <ServiceHome></ServiceHome>
             <OtherSection></OtherSection>
             <Delivery></Delivery>
             <Footer></Footer>
