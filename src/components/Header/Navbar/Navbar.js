@@ -1,21 +1,36 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../../img/logo.png';
+import useApi from '../../ContextApi/useApi';
 import './navbar.css';
 
 const Navbar = () => {
     const [isMobile, setMobile] = useState(false);
+    const { store, setStore, firebase } = useApi();
+    let key;
+    if (store?.items) {
+        key = Object.keys(store?.items);
+    }
+
+    const { user, signOutEmail } = firebase;
+
     return (
         <div>
-            <div className="nav-items flex items-center justify-between lg:m-4 md:m-4 m-2">
+            <div className="nav-items bg-white flex items-center justify-between lg:p-2 md:p-2 p-2  fixed w-full">
                 <div>
                     <img src={logo} width='50%' alt="" />
                 </div>
                 <div className={isMobile ? 'nav-link-mobile' : 'nav-link'} onClick={() => setMobile(false)}>
                     <NavLink to="/home" className='font-bold text-xl mx-4'>Home</NavLink>
                     <NavLink to="/order" className='font-bold text-xl mx-4'>Order</NavLink>
-                    <NavLink to="/manageOrder" className='font-bold text-xl mx-4 relative'><i className="fas fa-shopping-cart"></i><span className='count-number'>0</span></NavLink>
-                    <NavLink to="/login" className='font-bold text-xl mx-4'>Login</NavLink>
+                    <NavLink to="/manageOrder" className='font-bold text-xl mx-4 relative'><i className="fas fa-shopping-cart text-dark"></i><span className='count-number text-dark'>{key?.length ? key.length : 0}</span></NavLink>
+                    {
+                        user?.email && <span className='text-primary font-bold mx-2'>{user.displayName}</span>
+                    }
+                    {
+                        user?.email ? <button className='font-bold text-xl mx-4' onClick={signOutEmail}>Log Out</button> : <NavLink to="/login" className='font-bold text-xl mx-4'>Login</NavLink>
+                    }
+
                 </div>
                 <button className="hamburger"
                     onClick={() => setMobile(!isMobile)}
