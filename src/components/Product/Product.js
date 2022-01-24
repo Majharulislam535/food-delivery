@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Product = (props) => {
+
     const { img, name, description, price } = props.product;
 
     return (
         <div>
             <Link to='/order'>
-                <div style={{ "box-shadow": "rgba(0, 0, 0, 0.35) 0px 5px 15px" }} className='card text-center h-full rounded-lg '>
+                <div style={{ "boxShadow": "rgba(0, 0, 0, 0.16) 0px 1px 4px" }} className='card text-center h-full rounded-lg '>
                     <div className=''>
                         <img className='mx-auto' width='70%' src={img} alt="" />
                     </div>

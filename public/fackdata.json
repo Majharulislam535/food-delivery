@@ -1,62 +1,53 @@
 [
     {
-        "id": 1,
         "name": "Salad with Mozarella",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_03-1-360x360.jpg",
         "description": "Salad with Mozarella Sed ut perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum.",
         "price": "8.99"
     },
     {
-        "id": 2,
         "name": "Eggs with Bacon and Salad",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_01-1-360x360.jpg",
         "description": "Eggs with Bacon and Salad Sed ut perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum.",
         "price": "5.99"
     },
     {
-        "id": 3,
         "name": "Salmon with Vegetables",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_02-1-360x360.jpg",
         "description": "Salmon with Vegetables Sed ut perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum.",
         "price": "12.99"
     },
     {
-        "id": 4,
         "name": "Red beetroot soup",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_04-1-360x360.jpg",
         "description": "Red beetroot soup Sed ut perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum.",
         "price": "7.49"
     },
     {
-        "id": 5,
         "name": "Steaks with Asparagus",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_05-1-360x360.jpg",
         "description": "Steaks with Asparagus Sed ut perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum.",
         "price": "10.00"
     },
     {
-        "id": 6,
         "name": "Chicken with Vegetables",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_07-1-360x360.jpg",
         "description": "Chicken with Vegetables Sed ut perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum.",
         "price": "12.99"
     },
     {
-        "id": 7,
         "name": "Grilled Chicken Breast",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_08-1-360x360.jpg",
         "description": "Grilled Chicken Breast perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum. ",
         "price": "9.49"
     },
     {
-        "id": 8,
         "name": "Tender rabbit soup",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_06-1-360x360.jpg",
         "description": "Tender rabbit soup Grilled Chicken Breast perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum.",
         "price": "6.49"
     },
     {
-        "id": 8,
         "name": "white planet with health salad",
         "img": "http://fitmeal.like-themes.com/wp-content/uploads/2018/02/dish_03-1-360x360.jpg",
         "description": "white planet with health salad Grilled Chicken Breast perspiciatis unde omnis iste natus error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ipsum.",
