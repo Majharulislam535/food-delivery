@@ -1,4 +1,5 @@
 import React from 'react';
+import delivery from '../../../img/form-bg.png';
 
 const Delivery = () => {
     return (
@@ -20,7 +21,7 @@ const Delivery = () => {
                     </div>
                 </div>
                 <div className='lg:w-1/2 md:w-full w-full'>
-                    <img className='rounded-lg mx-auto' width='80%' src="http://fitmeal.like-themes.com/wp-content/uploads/2019/10/form-bg.png" alt="" />
+                    <img className='rounded-lg mx-auto' width='80%' src={delivery} alt="" />
                 </div>
             </div>
         </div>

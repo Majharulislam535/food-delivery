@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../../img/logo.png';
 import useApi from '../../ContextApi/useApi';
 import './navbar.css';
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div>
             <div className="nav-items bg-white flex items-center justify-between lg:p-2 md:p-2 p-2  fixed w-full">
                 <div>
-                    <img src={logo} width='50%' alt="" />
+                    <Link to='/' > <img src={logo} width='50%' alt="" /></Link>
                 </div>
                 <div className={isMobile ? 'nav-link-mobile' : 'nav-link'} onClick={() => setMobile(false)}>
                     <NavLink to="/home" className='font-bold text-xl mx-4'>Home</NavLink>

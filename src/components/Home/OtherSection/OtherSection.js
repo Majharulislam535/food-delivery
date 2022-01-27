@@ -1,11 +1,12 @@
 import React from 'react';
+import about from '../../../img/about_02.jpg';
 
 const OtherSection = () => {
     return (
         <>
             <div className='lg:mt-20 md:mt-15 mt-10 p-6 lg:flex items-center'>
                 <div className='lg:w-1/2 md:w-full w-full'>
-                    <img className='rounded-lg mx-auto' width='80%' src="http://fitmeal.like-themes.com/wp-content/uploads/2019/10/about_02.jpg" alt="" />
+                    <img className='rounded-lg mx-auto' width='80%' src={about} alt="" />
                 </div>
                 <div className='lg:w-1/2 md:w-full w-full'>
                     <h1 className='text-dark font-bold lg:text-6xl md:text-6xl text-4xl py-2'>Healthy and tasty foods with</h1>
